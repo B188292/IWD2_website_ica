@@ -1,0 +1,43 @@
+/* The Aesthetics Guidelines */
+
+body {
+	background-color: white;
+	margin: 0;
+	padding: 0;
+}                   
+
+h1 {
+    	color: black;
+     	font-family: Arial;
+     	font-size: 25px;
+    	text-align: center;
+}
+
+h2 {
+	color: black;                
+	font-family: Arial;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+p {
+	font-family: Arial;
+     	font-size: 15px;
+}
+
+nav {
+	background-color: black;
+	text-align: center;	
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	padding; 10px 20px;
+	display: inline-block;
+}
+
+form {
+	text-align: center;
+}

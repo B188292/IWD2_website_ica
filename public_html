@@ -1,0 +1,35 @@
+<html lang = "en">
+	<head>
+<style>
+
+body {
+	background-color: white;
+}
+
+h1 {
+	color: black;
+	text-align: centre;
+}
+
+p {
+	font-family: Arial;
+	font-size: 15px;
+}
+
+</style>
+	</head>
+</html>
+
+<body>
+	<ul>
+		<li><a href = "#link1">Home</a></li>
+		<li><a href = "#link2">About</a></li>
+		<li><a href = "#link3">Help</a></li>
+		<li><a href = "#link4">Statement of Credit</a></li>
+	</ul>
+
+<h1>Name</h1>
+<p>Welcome to Name, where we conduct protein analysis</p>
+
+</body>
+</html>
