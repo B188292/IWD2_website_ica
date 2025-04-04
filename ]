@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html lang = "en">
-<link rel = "stylesheet" href = "aesthetics2.css">
+<link rel = "stylesheet" href = "aesthetics.css">
 	<body>
 		<h1>Proteignosia</h1>
 		<div class = 'navbar'>
-                <a href = 'https://bioinfmsc8.bio.ed.ac.uk/~s2103976/ICA/analytis.php'>Home</a>
+                <a href = 'https://bioinfmsc8.bio.ed.ac.uk/~s2103976/ICA/home.html'>Home</a>
+                <a href = 'https://bioinfmsc8.bio.ed.ac.uk/~s2103976/ICA/analytis.php'>Analy-tis Tool</a>
                 <a href = 'https://bioinfmsc8.bio.ed.ac.uk/~s2103976/ICA/about.html'>About</a>
                 <a href = 'https://bioinfmsc8.bio.ed.ac.uk/~s2103976/ICA/help.html'>Help</a>
                 <a href = 'https://bioinfmsc8.bio.ed.ac.uk/~s2103976/ICA/statement_of_credit.html'>Statement of Credit</a>

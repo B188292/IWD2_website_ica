@@ -1,43 +1,80 @@
 /* The Aesthetics Guidelines */
 
 body {
-	background-color: white;
+	background-color: #F1F8F6;
 	margin: 0;
 	padding: 0;
 }                   
 
 h1 {
-    	color: black;
-     	font-family: Arial;
-     	font-size: 25px;
+    	background-color: #228B22;
+     	font-family: "Helvetica";
+     	font-size: 30px;
     	text-align: center;
 }
 
 h2 {
-	color: black;                
-	font-family: Arial;
+	color: #333333;                
+	font-family: "Helvetica";
+	font-size: 25px;
+	text-align: center;
+}
+
+h3 {
+	color: #333333;
+	font-family: "Helvetica";
 	font-size: 20px;
 	text-align: center;
 }
 
+h4 {
+        color: #333333;
+        font-family: "Helvetica";
+        font-size: 18px;
+        text-align: center;
+}
 
 p {
-	font-family: Arial;
+	font-family: "Helvetica";
      	font-size: 15px;
 }
 
-nav {
-	background-color: black;
+.navbar {
+	background-color: #228B22;
 	text-align: center;	
+	width: 100%;
 }
 
-nav a {
+.navbar a {
+	font-family: "Helvetica";
 	color: white;
 	text-decoration: none;
-	padding; 10px 20px;
-	display: inline-block;
+	padding: 12px;
+	text-align: center;
+	flex: 1;
+}
+
+.navbar a:hover{
+	background-color: #B5BFA2;
+}
+
+legend {
+	font-family: "Helvetica";
+	font-weight: bold;
+	width: 25%;
+	margin: 0 auto;
+	text-align: center;
+	display: block;
+	background-color: #A8C9A4;
 }
 
 form {
+	text-align: center;
+}
+
+fieldset {
+	text-align: center;
+	background-color: #A7E6B9;
+	font-family: "Helvetica";
 	text-align: center;
 }

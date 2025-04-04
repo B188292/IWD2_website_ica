@@ -1,0 +1,395 @@
+/*The Aesthetics Guidelines */
+body {
+    background-color: #f5f5f5;
+    background-image: linear-gradient(to bottom, #f5f5f5, #e6e6e6);
+    margin: 0;
+    padding: 0;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h1 {
+    background-color: #4b6b8a;
+    color: #f8f8f2;
+    font-family: "Optima", "Trajan Pro", serif;
+    font-size: 32px;
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+    border-bottom: 3px solid #d4af37;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.3);
+    letter-spacing: 1px;
+}
+
+h2 {
+    color: #4b6b8a;
+    font-family: "Optima", "Trajan Pro", serif;
+    font-size: 26px;
+    text-align: center;
+    margin: 20px auto;
+    border-bottom: 2px solid #d4af37;
+    padding-bottom: 8px;
+    width: fit-content;
+    max-width: 90%;
+}
+
+h3 {
+    color: #4b6b8a;
+    font-family: "Optima", "Trajan Pro", serif;
+    font-size: 22px;
+    text-align: center;
+    margin: 15px 0;
+}
+
+h4 {
+    color: #4b6b8a;
+    font-family: "Optima", "Trajan Pro", serif;
+    font-size: 18px;
+    text-align: center;
+    margin: 12px 0;
+}
+
+p {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.6;
+    color: #333;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+li {
+	margin-bottom: 8px;
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;  
+    	text-align: center;      
+}
+
+.navbar {
+    background-color: #4b6b8a;
+    text-align: center;
+    width: 100%;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+    font-family: "Optima", "Trajan Pro", serif;
+    color: #f8f8f2;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 0 5px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #d4af37;
+    color: #333;
+}
+
+legend {
+    font-family: "Optima", "Trajan Pro", serif;
+    font-weight: bold;
+    width: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+    text-align: center;
+    display: block;
+    background-color: #d4af37;
+    color: #333;
+    border-radius: 4px;
+    font-size: 18px;
+    border: 1px solid #b38f25;
+}
+
+form {
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    text-align: center;
+    background-color: #f8f8f2;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    border: 1px solid #d4af37;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+/* Additional Greek-inspired elements */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.greek-pattern {
+    background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><path d="M0,0 L100,0 L100,100 L0,100 Z" fill="none" stroke="%23d4af37" stroke-width="1" stroke-dasharray="5,5"/></svg>');
+    background-size: 20px 20px;
+    opacity: 0.1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    pointer-events: none;
+    z-index: -1;
+}
+
+.button {
+    background-color: #4b6b8a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-family: "Optima", "Trajan Pro", serif;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color: #d4af37;
+    color: #333;
+}
+
+table {
+    width: 90%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border-collapse: separate;
+    border-spacing: 0;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    background-color: #f8f8f2;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(75, 107, 138, 0.1);
+    border: 1px solid #d4af37;
+}
+
+th {
+    background-color: #4b6b8a;
+    color: #f8f8f2;
+    font-family: "Optima", "Trajan Pro", serif;
+    font-weight: bold;
+    padding: 12px 15px;
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: sticky;
+    top: 0;
+    border-bottom: 2px solid #d4af37;
+}
+
+td {
+    padding: 10px 15px;
+    border-bottom: 1px solid #e0e0d8;
+    color: #333;
+    transition: all 0.2s ease;
+}
+
+tr {
+    transition: background-color 0.3s ease;
+}
+
+/* Zebra striping for better readability */
+tr:nth-child(even) {
+    background-color: #f0f0e8;
+}
+
+/* Hover Effects */
+tr:hover {
+    background-color: #e8e6d9;
+}
+
+td:hover {
+    background-color: #d4af37;
+    color: #333;
+    font-weight: bold;
+}
+
+th:hover {
+    background-color: #3a556f;
+    cursor: default;
+}
+
+/* Special hover for first column (often contains important identifiers) */
+td:first-child:hover {
+    background-color: #b38f25;
+    color: white;
+}
+
+/* Table caption styling */
+caption {
+    font-family: "Optima", "Trajan Pro", serif;
+    font-size: 1.2em;
+    padding: 10px;
+    color: #4b6b8a;
+    caption-side: top;
+    text-align: center;
+    border-bottom: 2px solid #d4af37;
+    background-color: #f8f8f2;
+    letter-spacing: 1px;
+}
+
+.search-meta td {
+  background: #f8f8f2;
+  padding: 10px;
+  text-align: center;
+  font: italic 0.95em "Palatino Linotype", serif;
+  color: #4b6b8a;
+  border-bottom: 1px dashed #d4af37;
+}
+
+.search-meta strong {
+  font: bold 1em "Optima", sans-serif;
+  color: #b38f25;
+  font-style: normal;
+}
+
+/* Table footer for summary rows */
+tfoot td {
+    background-color: #4b6b8a;
+    color: #f8f8f2;
+    font-weight: bold;
+    border-top: 2px solid #d4af37;
+}
+
+tfoot td:hover {
+    background-color: #3a556f;
+    color: #f8f8f2;
+}
+
+/* Greek key pattern for borders */
+.table-container {
+    position: relative;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 1020px;
+}
+
+.table-container::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        #d4af37 20%,
+        #d4af37 30%,
+        transparent 30%,
+        transparent 70%,
+        #d4af37 70%,
+        #d4af37 80%,
+        transparent 80%);
+}
+
+.table-container::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 10px;
+    background: linear-gradient(90deg,
+        transparent 0%,
+        #d4af37 20%,
+        #d4af37 30%,
+        transparent 30%,
+        transparent 70%,
+        #d4af37 70%,
+        #d4af37 80%,
+        transparent 80%);
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    max-width: 220px; /* Slightly wider for Greek aesthetic */
+    margin: 25px auto; /* Centered with more vertical space */
+    padding: 10px;
+    position: relative;
+}
+
+/* Greek decorative element for container */
+.button-container::before {
+    content: "";
+    position: absolute;
+    top: -5px;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #d4af37, transparent);
+}
+
+/* Base Button Style */
+.button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 24px;
+    border: 2px solid;
+    border-radius: 4px; /* Slightly sharper to match Greek architecture */
+    text-decoration: none;
+    font-family: "Optima", "Trajan Pro", serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+/* Download Button */
+.download-results {
+	text-align: center;
+	border-color: #d4af37; /* Olympic gold */
+	color: #333;
+	background: #f8f8f2; /* Parchment */
+}
+
+.download-results:hover {
+    background: #d4af37;
+    color: #333;
+    box-shadow: 0 2px 8px rgba(212, 175, 55, 0.3);
+}
+
+/* Icon Styling */
+.icon {
+    margin-right: 10px;
+    font-size: 1.1em;
+    filter: drop-shadow(1px 1px 1px rgba(0,0,0,0.1));
+}
+
+/* Active State */
+.button:active {
+    transform: translateY(1px);
+}
+
+/* Optional: Add Greek key pattern to hover state */
+.button:hover::after {
+    content: "";
+    position: absolute;
+    bottom: -8px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 30px;
+    height: 2px;
+    background: #d4af37;
+}
+
